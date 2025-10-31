@@ -1,0 +1,9 @@
+
+Use *hashcat* with the supplied wordlist.txt file to find the password
+for the secret.zip file.
+
+Use the code therein to decrypt the .7z task file. 
+
+Remember to write down the sequence of commands you used and sources
+you consulted to find the password for the secret.zip file using hashcat. 
+

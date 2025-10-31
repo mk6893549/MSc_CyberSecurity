@@ -1,0 +1,19 @@
+One of the NCSC's top tips for creating strong passwords is to
+use 3 random words.
+(https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/three-random-words)
+
+The wordlist in this directory contains 20 words. Suppose these are the 20
+most likely words people think of at random. 
+
+The password file consists of a single (raw) SHA1 hash of a user that
+followed the three random words rule by concatenating the three
+words. For example, if the user thought of the three random words
+bird, mouse, and pudding, then their password would be
+birdmousepudding.
+
+Use the password's SHA1 hash to find the user's password with the
+*hashcat* tool. Use the hashcat tool in the most efficient way, i.e.,
+using plausible password guesses only.
+
+Use that same password to decrypt the code.7z file.
+

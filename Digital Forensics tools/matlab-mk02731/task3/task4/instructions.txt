@@ -1,0 +1,14 @@
+Use LSB_steg_extract to extract the plaintext image from the stego image.
+The plaintext image has been encrypted with AES in CBC mode with a zero IV
+using the encryption key: "month" (without quotes).
+The encrypted image was then embedded along a random path using the
+following key: "union" (without quotes).
+The plaintext image has the same size as the stego image.
+
+Compute the SHA-256 crypto_hash of the extracted plaintext image. Convert the
+hash into a hexadecimal string with the command dec2hex and assign it to
+the variable h. Then the command   h(:)'
+(including the apostrophe, which is the transpose operator) will give you
+a hexadecimal string that will decrypt the file code.7z
+
+Use the discovered code to unlock the next task.

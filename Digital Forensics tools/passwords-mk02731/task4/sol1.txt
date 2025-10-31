@@ -1,0 +1,10 @@
+https://hashcat.net/wiki/doku.php?id=example_hashes
+https://hashcat.net/forum/thread-11037.html
+https://hashcat.net/forum/thread-11037.html
+
+[zip2john ]
+[hashcat --show -a 3 -m 17210 secret_hash1.txt wordlist.txt ]
+[hashcat --show secret.hash]
+potential_passwords.txt
+
+guide

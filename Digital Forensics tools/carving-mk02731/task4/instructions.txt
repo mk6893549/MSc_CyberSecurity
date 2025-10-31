@@ -1,0 +1,10 @@
+
+You are given the data portion of a diskimage.
+
+There are two webp pictures in it. However, one of the webp pictures is 
+fragmented. Its first part has been written until the end of the diskimage and its second part continues at the beginning. 
+
+Find and extract the webp pictures with scalpel or foremost.
+
+Use the code you learn from the pictures to decrypt the 7z task file.
+

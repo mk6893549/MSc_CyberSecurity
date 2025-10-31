@@ -1,0 +1,5 @@
+Use LSB_steg_extract to find the plaintext of the stego image. 
+
+Use the discovered code to unlock the next task.
+
+C-7388-dcf3-77c3-c6eb-476f-7278-Z

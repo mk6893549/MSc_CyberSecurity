@@ -1,0 +1,11 @@
+
+You are given the data portion of a diskimage.
+
+There are several pictures in it. However, one of the important pictures is 
+fragmented. Its first part has been written until the start of another file
+and continued after the end of the other file. 
+
+Find and extract the pictures with scalpel or foremost.
+
+Use the code you learn from the pictures to decrypt the 7z task file.
+

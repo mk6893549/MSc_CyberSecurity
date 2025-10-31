@@ -1,0 +1,11 @@
+
+Use John the Ripper (The "john" terminal command on tsurugi Linux) to
+find the password for the secret.zip file.
+
+Use the code therein to decrypt the .7z task file. 
+
+Remember to write down the sequence of commands you used, including
+their command line arguments, to find the password for the secret.zip
+file. What is John the Ripper's most efficient password cracking mode
+to find this password?
+

@@ -1,0 +1,19 @@
+[https://github.com/FullTang/4-DigitPINs]
+
+[seq -w 0000 9999 > pinlist.txt]
+
+[john --format=gpg --wordlist=pinlist.txt gpg_hash.txt]
+
+[john --format=gpg  --session=new_session --wordlist=pinlist.lst gpg_hash.txt]
+
+have to create a new session becase of last one
+
+[gpg --pinentry-mode loopback --batch --passphrase "2050" -o password.decrypted -d password.enc]
+
+
+
+
+seq -w 0000 9999 > pinlist.txt
+gpg2john password.enc > gpg_hash.txt
+john --wordlist=pinlist.txt gpg_hash.txt
+gpg --pinentry-mode loopback --batch --passphrase "FOUND_PIN" -o password.decrypted -d password.enc

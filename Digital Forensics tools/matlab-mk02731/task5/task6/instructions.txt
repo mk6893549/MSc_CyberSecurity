@@ -1,0 +1,11 @@
+Use LSB_steg_extract to find the plaintext of the stego image. 
+Use the discovered code to unlock the next task.
+
+This is another keyed steganography challenge. You must first determine whether
+the key was used to encrypt the plaintext or whether it was used to
+randomize the embedding path. Make sure to explain how you have done this.
+
+Write matlab code to find the correct key by brute force. The key
+has length 4 and has been randomly chosen out of all possible
+combinations formed of the letters A, B, C, D.
+

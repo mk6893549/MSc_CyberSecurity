@@ -1,0 +1,6 @@
+
+You are given a partial diskimage.
+Find and extract WebP images with scalpel or foremost.
+
+Use the code you can learn from the WebP images to decrypt the 7z task file.
+

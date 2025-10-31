@@ -1,0 +1,4 @@
+
+You are given a pdf file with an embedded image.
+Extract the image with scalpel or foremost to reveal the complete code.
+

@@ -1,0 +1,11 @@
+The secretcode file has been encrypted with the gnu privacy guard
+(gpg) and a password that consists of two uppercase letters, a dash
+(-), two digits, a dash and one of the words "red", "green", "blue".
+So a possible password would be: AB-39-green
+
+The encryption command was
+gpg --pinentry-mode loopback --batch --passphrase "(password here)" --cipher-algo AES -ac -o secretcode.enc secretcode
+
+Use the John the Ripper tool to break the encryption password in the most
+efficient way, i.e., using plausible password guesses only.
+

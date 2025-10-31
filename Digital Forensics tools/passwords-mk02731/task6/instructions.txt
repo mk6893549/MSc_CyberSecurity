@@ -1,0 +1,24 @@
+To be on the safe side, one reader of the NCSC's top tips for creating
+strong passwords decides to modify the 3 random words rule.
+
+Their password generation rule is to take three random words, repeat
+each character of the first word, separate the result with a dash (-) from the
+second word, uppercase the second word and separate it with another
+dash from the third word.
+
+For example, if the reader thought of the three random words
+bird, mouse, and pudding, then their password would be
+"bbiirrdd-MOUSE-pudding" (without the quotes).
+
+The wordlist in this directory contains 20 words. Suppose these are the 20
+most likely words the reader will think of at random. 
+
+The password file consists of a single (raw) SHA1 hash of the reader
+following the above rules.
+
+Use the password's SHA1 hash to find the reader's password with the
+*hashcat* tool. Use the hashcat tool in the most efficient way, i.e.,
+using plausible password guesses only.
+
+Use that same password to decrypt the code.7z file.
+

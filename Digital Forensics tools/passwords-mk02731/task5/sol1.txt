@@ -1,0 +1,12 @@
+there are three ways to generate a combine wordlist
+
+Use [https://www.kodytools.com/combination-generator]
+
+[hashcat -m 100 -a 1 -1 wordlist.txt -2 wordlist.txt -3 wordlist.txt hashfile.txt ?1?2?3]
+
+
+###finsih the task
+
+create a script and save it in sh file extension
+[chmod +x generate_wordlist.sh]
+[./generate_wordlist.sh]
